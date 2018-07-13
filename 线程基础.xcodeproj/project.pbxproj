@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FF41E19920F8406500E77A4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E19820F8406500E77A4A /* AppDelegate.m */; };
-		FF41E19C20F8406500E77A4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E19B20F8406500E77A4A /* ViewController.m */; };
 		FF41E19F20F8406500E77A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF41E19D20F8406500E77A4A /* Main.storyboard */; };
 		FF41E1A120F8406700E77A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF41E1A020F8406700E77A4A /* Assets.xcassets */; };
 		FF41E1A420F8406700E77A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF41E1A220F8406700E77A4A /* LaunchScreen.storyboard */; };
 		FF41E1A720F8406700E77A4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1A620F8406700E77A4A /* main.m */; };
 		FF41E1B120F8406700E77A4A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1B020F8406700E77A4A /* ____Tests.m */; };
 		FF41E1BC20F8406700E77A4A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1BB20F8406700E77A4A /* ____UITests.m */; };
+		FF41E1CB20F843FC00E77A4A /* MailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1CA20F843FC00E77A4A /* MailVC.m */; };
+		FF41E1CD20F84DFA00E77A4A /* PthreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1CC20F84DFA00E77A4A /* PthreadVC.m */; };
+		FF41E1D020F84E2500E77A4A /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1CF20F84E2500E77A4A /* NSThreadVC.m */; };
+		FF41E1D520F87E7500E77A4A /* ThreadStatusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1D420F87E7500E77A4A /* ThreadStatusVC.m */; };
+		FF41E1D820F87EE400E77A4A /* ThreadSuXingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1D720F87EE400E77A4A /* ThreadSuXingVC.m */; };
+		FF41E1DB20F889F500E77A4A /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41E1DA20F889F500E77A4A /* Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,7 @@
 		FF41E19420F8406500E77A4A /* 线程基础.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "线程基础.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF41E19720F8406500E77A4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF41E19820F8406500E77A4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF41E19A20F8406500E77A4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF41E19B20F8406500E77A4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF41E19A20F8406500E77A4A /* PthreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PthreadVC.h; sourceTree = "<group>"; };
 		FF41E19E20F8406500E77A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF41E1A020F8406700E77A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF41E1A320F8406700E77A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,17 @@
 		FF41E1B720F8406700E77A4A /* 线程基础UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "线程基础UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF41E1BB20F8406700E77A4A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		FF41E1BD20F8406700E77A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF41E1C920F843FC00E77A4A /* MailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailVC.h; sourceTree = "<group>"; };
+		FF41E1CA20F843FC00E77A4A /* MailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailVC.m; sourceTree = "<group>"; };
+		FF41E1CC20F84DFA00E77A4A /* PthreadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PthreadVC.m; sourceTree = "<group>"; };
+		FF41E1CE20F84E2500E77A4A /* NSThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		FF41E1CF20F84E2500E77A4A /* NSThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
+		FF41E1D120F84FA300E77A4A /* ThreadStatusVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadStatusVC.h; sourceTree = "<group>"; };
+		FF41E1D420F87E7500E77A4A /* ThreadStatusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadStatusVC.m; sourceTree = "<group>"; };
+		FF41E1D620F87EE400E77A4A /* ThreadSuXingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadSuXingVC.h; sourceTree = "<group>"; };
+		FF41E1D720F87EE400E77A4A /* ThreadSuXingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSuXingVC.m; sourceTree = "<group>"; };
+		FF41E1D920F889F500E77A4A /* Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		FF41E1DA20F889F500E77A4A /* Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,18 @@
 			children = (
 				FF41E19720F8406500E77A4A /* AppDelegate.h */,
 				FF41E19820F8406500E77A4A /* AppDelegate.m */,
-				FF41E19A20F8406500E77A4A /* ViewController.h */,
-				FF41E19B20F8406500E77A4A /* ViewController.m */,
+				FF41E1C920F843FC00E77A4A /* MailVC.h */,
+				FF41E1CA20F843FC00E77A4A /* MailVC.m */,
+				FF41E19A20F8406500E77A4A /* PthreadVC.h */,
+				FF41E1CC20F84DFA00E77A4A /* PthreadVC.m */,
+				FF41E1CE20F84E2500E77A4A /* NSThreadVC.h */,
+				FF41E1CF20F84E2500E77A4A /* NSThreadVC.m */,
+				FF41E1D120F84FA300E77A4A /* ThreadStatusVC.h */,
+				FF41E1D420F87E7500E77A4A /* ThreadStatusVC.m */,
+				FF41E1D620F87EE400E77A4A /* ThreadSuXingVC.h */,
+				FF41E1D720F87EE400E77A4A /* ThreadSuXingVC.m */,
+				FF41E1D920F889F500E77A4A /* Demo.h */,
+				FF41E1DA20F889F500E77A4A /* Demo.m */,
 				FF41E19D20F8406500E77A4A /* Main.storyboard */,
 				FF41E1A020F8406700E77A4A /* Assets.xcassets */,
 				FF41E1A220F8406700E77A4A /* LaunchScreen.storyboard */,
@@ -262,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF41E19C20F8406500E77A4A /* ViewController.m in Sources */,
+				FF41E1D820F87EE400E77A4A /* ThreadSuXingVC.m in Sources */,
 				FF41E1A720F8406700E77A4A /* main.m in Sources */,
+				FF41E1D020F84E2500E77A4A /* NSThreadVC.m in Sources */,
 				FF41E19920F8406500E77A4A /* AppDelegate.m in Sources */,
+				FF41E1D520F87E7500E77A4A /* ThreadStatusVC.m in Sources */,
+				FF41E1CD20F84DFA00E77A4A /* PthreadVC.m in Sources */,
+				FF41E1DB20F889F500E77A4A /* Demo.m in Sources */,
+				FF41E1CB20F843FC00E77A4A /* MailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

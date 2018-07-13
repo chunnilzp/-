@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MailVC.h
 //  线程基础
 //
 //  Created by 李泽平 on 2018/7/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MailVC : UITableViewController
 
 @end
-
